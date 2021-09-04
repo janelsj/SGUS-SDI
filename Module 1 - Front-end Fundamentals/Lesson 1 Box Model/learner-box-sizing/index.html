@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Box Sizing</title>
+    <style>
+      #parent-div {
+        border: 10px solid blue;
+        width: 300px;
+        height: 300px;
+        display: block;
+      }
+
+      #child-div {
+        border: 10px solid red;
+        width: 100%;
+        display: block;
+        box-sizing: content-box;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="parent-div">
+      <p>Parent Container</p>
+
+      <span id="child-div">Child Container</span>
+    </span>
+  </body>
+</html>
