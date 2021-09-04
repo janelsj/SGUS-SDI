@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Complex Layout Challenge</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      /*
+            Task 3: When the device width is 800px and lower, only show "header menu", "main" and "footer".
+        */
+      .container {
+        display: grid;
+        grid-template-columns: 10% 1fr auto;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+          "header-logo header-menu header-menu"
+          "left-menu main main"
+          "left-menu footer footer";
+        height: 100vh;
+      }
+      .header-logo {
+        grid-area: header-logo;
+      }
+      .header-menu {
+        grid-area: header-menu;
+      }
+      .left-menu {
+        grid-area: left-menu;
+      }
+      .main {
+        grid-area: main;
+      }
+      .footer {
+        grid-area: footer;
+      }
+      div {
+        border: 2px solid brown;
+        background-color: beige;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      @media (max-width:800px) {
+        .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+          "header-menu"
+          "main"
+          "footer";
+        }
+        .left-menu {
+          display: none;
+        }
+        .header-logo {
+          display: none;
+        }
+      }
+        /* I don't understand why if I leave this (the code below) out within the media query curly brackets:
+        .left-menu {
+          display: none;
+        }
+        .header-logo {
+          display: none;
+        }
+        then the left-menu div will show itself at the bottom right hand corner of the browser?
+        Have tried playing around with other methods of codes but don't understand why it doesn't go away.
+        Can you give me feedback on this? Thank you. :) */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-logo">logo</div>
+      <div class="header-menu">header menu</div>
+      <div class="left-menu">left menu</div>
+      <div class="main">main</div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
