@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>On Key Event</title>
+        <script defer src="./src/index.js"></script>
+    </head>
+    <body>
+        <!-- Add "keypress" event handler to textarea element -->
+        <input type="text" placeholder="key up" onkeyup="up()">
+        <br><br>
+        <input type="text" placeholder="key down" onkeydown="down()">
+        <br><br>
+        <textarea rows=10 cols=50 placeholder="type anything here..." onkeypress="wordCount()"></textarea>
+        Word Count: <span>0</span>
+    </body>
+</html>

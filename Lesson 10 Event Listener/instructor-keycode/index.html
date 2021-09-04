@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Key Code Event</title>
+        <script defer src="./src/index.js"></script>
+        <style>
+            span{
+                border:1px solid black;
+                margin:10px;                
+                padding:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Part 1: Simple Demo -->
+        <textarea rows=10 cols=50 placeholder="key code detection" onkeypress="keyPressHandler(event); registerKey(event)"></textarea>
+        <hr/>
+        <br><br><br><br><br><br>
+        <!-- Part 2: Highlight the letter where respective key is entered. -->
+        <span id='a1'>A</span><span id='p1'>P</span><span id='p2'>P</span><span id='l1'>L</span><span id='e1'>E</span>
+    </body>
+</html>
