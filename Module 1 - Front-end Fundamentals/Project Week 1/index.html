@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script defer src="./src/index.js"></script>
+</head>
+<body>
+    <div class = "todoGrid">
+        <h1><u>Jane's to-do list</u></h1>
+        <div class = "newTodo">
+            <form>
+                <input type="text" placeholder="Add new to-do item" id="newItem" required />
+                <br>
+                <input type="text" placeholder="Due by: dd/mm/yyyy" id="dueDate" onfocus ="(this.type='date')" onblur="(this.type='text')" required />
+                <br>
+                <input type="submit" value="Add item" id="add" />
+            </form>
+        </div>
+        <div class = "alerts">
+            <div id = "allDone">
+                <h3>All tasks completed.</h3>
+            </div>
+            <div id = "dueSoon">
+                <h3>Outstanding tasks:</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src ="./src/index.js"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: oldlace;
+        }
+
+        .form {
+            display: grid;
+            grid-template-columns: [labels] auto [input] 1fr;
+            grid-auto-flow: row;
+            grid-gap: 1px 20px;
+        }
+
+        .form > label {
+            grid-column: labels;
+            grid-row: auto;
+            align-self: center;
+            font-size: 1.5em;
+        }
+
+        .form > input, .form > select {
+            grid-column: input;
+            grid-row: auto;
+            align-self: center;
+            font-size: 1.2em;
+        }
+
+        #submit {
+            position: relative;
+            margin-left: 43%;
+            background-color: inherit;
+            border-radius: 0px;
+            border: 2px solid black;
+            font-size: 1.5em;
+        }
+
+        #submit:hover, #submit:focus {
+            cursor: pointer;
+            color: grey;
+            border: 2px solid grey;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <div class = "form">
+                <label for="fullName">Full name as per NRIC:</label>
+                <input type="text" id="name" name="fullName">
+                <br>
+                <label for="dob">Date of birth:</label>
+            <!-- Challenge 2: Different input type -->
+                <input type="date" id="dob" name="dob">
+            <!-- Challenge 2: End -->
+                <br>
+                <label for="nricNo">Identity card no.:</label>
+                <input type="text" id="ic" name="nricNo">
+                <br>
+                <label for="race">Race:</label>
+                <select id="race" name="race"></select>
+                <br>
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex"></select>
+                <br>
+                <label for="country">Country of birth:</label>
+                <select id="country" name="country"></select>
+            </div>
+            <br><br>
+            <input type="submit" id="submit" value="SUBMIT" onclick="submitFunction(event)">
+            <br>
+        </form>
+    </div>
+</body>
+</html>
