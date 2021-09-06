@@ -67,11 +67,10 @@ Discussion Points:
         Supporting branches -> FEATURE, RELEASE, HOTFIX (hold changes related to emergency bug fixes).
 ```
 
-| PROS                                     | CONS                                       |
-|------------------------------------------|--------------------------------------------|
-| - The various types of branches make it  | - This strategy could overcomplicate and   |
-|   intuitive to organize work in the team.|   slow the development process and release |
-|                                          |   cycles.                                  |
+| PROS                                                     | CONS                                       |
+|----------------------------------------------------------|--------------------------------------------|
+| - The various types of branches make it intuitive to organize work in the team.| - This strategy could overcomplicate and slow the development process and release cycles.|
+|                                          |                                            |
 | - The systematic development process     | - Cannot support Continuous Integration    |
 |   allows for efficient testing.          |   or Continuous Delivery due to the long   |
 |                                          |   development cycle.                       |
