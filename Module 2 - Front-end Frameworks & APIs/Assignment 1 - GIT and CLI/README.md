@@ -77,8 +77,9 @@ Discussion Points:
 2. GitHub Flow Branch Strategy:
         Branches include: MAIN, FEATURE.
         MAIN branch -> contains production-ready code.
-        FEATURE branches (the other branches) -> contain work on new features and bug fixes, 
-                                                 which will be merged back into the main branch when the work is finished and reviewed.
+        FEATURE branches (the other branches) -> contain work on new features and bug fixes, which will
+                                                 be merged back into the main branch when the work is
+                                                 finished and reviewed.
 ```
 
 | PROS                                                     | CONS                                       |
