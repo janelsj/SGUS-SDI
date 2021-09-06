@@ -12,22 +12,22 @@ You are to write a documentation that contain CLI Commands to:
 
 Input the CLI Commands here.
 
-    ## Move main folder to the home directory
+### Move main folder to the home directory
     ```
     
 
     ```
-    ## Delete folder_c after moving to the home directory
+### Delete folder_c after moving to the home directory
     ```
     
 
     ```
-    ## Rename 'Folder A' to 'folder_a'
+### Rename 'Folder A' to 'folder_a'
     ```
     
 
     ```
-    ## Copy `folder-b` to `folder-a`
+### Copy 'folder-b' to 'folder-a'
     ```
     
 
