@@ -71,12 +71,10 @@ Discussion Points:
 |------------------------------------------|--------------------------------------------|
 | - The various types of branches make it  | - This strategy could overcomplicate and   |
 |   intuitive to organize work in the team.|   slow the development process and release |
-|                                          |   cycles.                                 |
-|------------------------------------------|--------------------------------------------|
+|                                          |   cycles.                                  |
 | - The systematic development process     | - Cannot support Continuous Integration    |
 |   allows for efficient testing.          |   or Continuous Delivery due to the long   |
 |                                          |   development cycle.                       |
-|------------------------------------------|--------------------------------------------|
 | - Multiple versions of the production    |                                            |
 |   code can be supported with the release |                                            |
 |   branches.                              |                                            |
@@ -86,7 +84,7 @@ Discussion Points:
         Branches include: MAIN, FEATURE.
         MAIN branch -> contains production-ready code.
         FEATURE branches (the other branches) -> contain work on new features and bug fixes, 
-        which will be merged back into the main branch when the work is finished and reviewed.
+                                                 which will be merged back into the main branch when the work is finished and reviewed.
 ```
 
 | PROS                                     | CONS                                       |
@@ -94,11 +92,9 @@ Discussion Points:
 | - GitHub flow is the most simple out of  | - This strategy is unable to support       |
 |   the three strategies.                  |   multiple versions of code in production  |
 |                                          |   at the same time.                        |
-|------------------------------------------|--------------------------------------------|
 | - The simplicity of this workflow allows | - The lack of dedicated development        |
 |   for Continuous Delivery and Continuous |   branches makes GitHub flow more          |
 |   Integration.                           |   susceptible to bugs in production.       |
-|------------------------------------------|--------------------------------------------|
 | - This strategy works well for small     |                                            |
 |   teams and web applications.            |                                            |
 
@@ -106,10 +102,10 @@ Discussion Points:
 3. GitLab Flow Branch Strategy:
         Branches include: MAIN, FEATURE, ENVIRONMENT.
         MAIN branch -> contains production-ready code.
-        FEATURE branch -> contains work for new features and bug fixes, which will be 
-        merged back into the main branch once the work is finished and reviewed.
-        ENVIRONMENT branches (the other branches) -> can contain production or 
-        pre-production, or release branches, depending on situation.
+        FEATURE branch -> contains work for new features and bug fixes, which will be merged 
+                          back into the main branch once the work is finished and reviewed.
+        ENVIRONMENT branches (the other branches) -> can contain production or pre-production,
+                                                     or release branches, depending on situation.
 ```
 
 | PROS                                     | CONS                                       |
@@ -117,11 +113,9 @@ Discussion Points:
 | - Simpler than Git Flow Branch Strategy, | - Not the simplest strategy.               |
 |   but more complex than GitHub Flow      |                                            |
 |   Branch Strategy.                       |                                            |
-|------------------------------------------|--------------------------------------------|
 | - More organised and structured than the | - Can lead to messy collaboration as it's  |
 |   GitHub Flow Branch Strategy.           |   not the most structured branching        |
 |                                          |   strategy.                                |
-|------------------------------------------|--------------------------------------------|
 | - GitLab Flow can allow for Continuous   |                                            |
 |   Delivery and versioned releases.       |                                            |
 
