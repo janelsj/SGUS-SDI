@@ -70,13 +70,8 @@ Discussion Points:
 | PROS                                                     | CONS                                       |
 |----------------------------------------------------------|--------------------------------------------|
 | - The various types of branches make it intuitive to organize work in the team.| - This strategy could overcomplicate and slow the development process and release cycles.|
-|                                          |                                            |
-| - The systematic development process     | - Cannot support Continuous Integration    |
-|   allows for efficient testing.          |   or Continuous Delivery due to the long   |
-|                                          |   development cycle.                       |
-| - Multiple versions of the production    |                                            |
-|   code can be supported with the release |                                            |
-|   branches.                              |                                            |
+| - The systematic development process allows for efficient testing.| - Cannot support Continuous Integration or Continuous Delivery due to the long development cycle.|
+| - Multiple versions of the production code can be supported with the release branches|                                            |
 
 ```
 2. GitHub Flow Branch Strategy:
