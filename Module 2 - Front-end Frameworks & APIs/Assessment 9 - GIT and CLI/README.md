@@ -13,7 +13,8 @@ You are to write a documentation that contain CLI Commands to:
 Input the CLI Commands here.
 
 ```
-// Add commands here
+## Move main folder to the home directory
+Open gitBash terminal.
 ```
 
 ## Submission Guidelines
