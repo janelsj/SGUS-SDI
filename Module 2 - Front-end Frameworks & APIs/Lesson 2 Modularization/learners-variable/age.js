@@ -1,0 +1,1 @@
+// use CommonJS to export a numeric value.

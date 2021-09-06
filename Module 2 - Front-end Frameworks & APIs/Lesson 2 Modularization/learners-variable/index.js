@@ -1,0 +1,1 @@
+// Use CommonJS to import a numeric value from age.js

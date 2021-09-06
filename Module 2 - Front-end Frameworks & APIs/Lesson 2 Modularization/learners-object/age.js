@@ -1,0 +1,1 @@
+// Use CommonJS to export an object that contains an `age` prop. { age: 20 }

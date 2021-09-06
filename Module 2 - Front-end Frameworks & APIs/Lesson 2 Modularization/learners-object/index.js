@@ -1,0 +1,1 @@
+// Use CommonJS to import an object from age.js
