@@ -61,8 +61,9 @@ Discussion Points:
 1. Git Flow Branch Strategy:
         Branches include: MAIN, DEVELOP, FEATURE, RELEASE, HOTFIX.
         Primary branches -> MAIN and DEVELOP.
-        Supporting branches -> FEATURE, RELEASE, HOTFIX (to hold changes related to emergency bug fixes).
-        _______________________________________________________________________________________
+        Supporting branches -> FEATURE, RELEASE, HOTFIX (hold changes related to emergency bug fixes).
+```
+         _______________________________________________________________________________________
         | PROS                                     | CONS                                       |
         |------------------------------------------|--------------------------------------------|
         | - The various types of branches make it  | - This strategy could overcomplicate and   |
@@ -73,11 +74,13 @@ Discussion Points:
         |   code can be supported with the release |   development cycle.                       |
         |   branches.                              |                                            |
         |__________________________________________|____________________________________________|
-
+```
 2. GitHub Flow Branch Strategy:
         Branches include: MAIN, FEATURE.
         MAIN branch -> contains production-ready code.
-        FEATURE branches (the other branches) -> contain work on new features and bug fixes, which will be merged back into the main branch when the work is finished and reviewed.
+        FEATURE branches (the other branches) -> contain work on new features and bug fixes, 
+        which will be merged back into the main branch when the work is finished and reviewed.
+```
          _______________________________________________________________________________________
         | PROS                                     | CONS                                       |
         |------------------------------------------|--------------------------------------------|
@@ -89,16 +92,16 @@ Discussion Points:
         | - This strategy works well for small     |   susceptible to bugs in production.       |
         |   teams and web applications.            |                                            |
         |__________________________________________|____________________________________________|
-
-Because of the simplicity of the workflow, this Git branching strategy allows for Continuous Delivery and Continuous Integration.
-This Git branch strategy works great for small teams and web applications.| Self readings |
-
+```
 3. GitLab Flow Branch Strategy:
         Branches include: MAIN, FEATURE, ENVIRONMENT.
         MAIN branch -> contains production-ready code.
-        FEATURE branch -> contains work for new features and bug fixes, which will be merged back into the main branch once the work is finished and reviewed.
-        ENVIRONMENT branches (the other branches) -> can contain production or pre-production, or release branches, depending on situation.
-        _______________________________________________________________________________________
+        FEATURE branch -> contains work for new features and bug fixes, which will be 
+        merged back into the main branch once the work is finished and reviewed.
+        ENVIRONMENT branches (the other branches) -> can contain production or 
+        pre-production, or release branches, depending on situation.
+```
+         _______________________________________________________________________________________
         | PROS                                     | CONS                                       |
         |------------------------------------------|--------------------------------------------|
         | - Simpler than Git Flow Branch Strategy, | - Not the simplest strategy.               |
@@ -112,33 +115,47 @@ This Git branch strategy works great for small teams and web applications.| Self
 ```
 2. Which branching strategy looks the most practical for you personally?
 ```
-GitHub Flow Branch Strategy, since our team is small and and also allows continuous delivery and continuous integration.
+GitHub Flow Branch Strategy, since our team is small and and this strategy also allows for
+continuous delivery and continuous integration.
 ```
 3. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
     a. Startup with less than 5 developers
     ```
     GitHub Flow Branch Strategy.
-    This is a simple strategy that allows continuous delivery and continuous integration from featured branches into the main branch. It is ideal for small groups of developers as described in this scenario.
+    This is a simple strategy that allows continuous delivery and continuous integration from 
+    featured branches into the main branch. It is ideal for small groups of developers as 
+    described in this scenario.
     ```
     b. Startup with multiple small team of developers (3 teams of 3 developers)
     ```
     GitLab Flow Branch Strategy.
-    Since the startup consists of multiple teams, using GitLab Flow Branch Strategy allows for more organisation and structure for the teams to focus on different parts (e.g. feature branches, environment release branches etc) of the startup than GitHub Flow, but at the same time does not overcomplicate the development process like Git Flow.
+    Since the startup consists of multiple teams, using GitLab Flow Branch Strategy allows 
+    for more organisation and structure for the teams to focus on different parts (e.g. feature
+    branches, environment release branches etc) of the startup than GitHub Flow, but at the 
+    same time does not overcomplicate the development process like Git Flow.
     ```
     c. Startup with no specific team make up. It’s just a group of 8 developers.
     ```
     GitHub Flow Branch Strategy.
-    This is a simple strategy that allows continuous delivery and continuous integration from featured branches into the main branch. It is ideal for small startups with no team make-up as described in this scenario, assuming that without team make-up, each developer is contributing changes to the source code one at a time instead of having multiple versions of the code in production at the same time.
+    This is a simple strategy that allows continuous delivery and continuous integration 
+    from featured branches into the main branch. It is ideal for small startups with no 
+    team make-up as described in this scenario, assuming that without team make-up, each 
+    developer is contributing changes to the source code one at a time instead of having 
+    multiple versions of the code in production at the same time.
     ```
     d. SME with multiple small team of developers (4 teams of 3 developers)
     ```
     Git Flow Branch Strategy.
-    Since it consists of many teams, this strategy with the various types of branches make it intuitive to organize work in the team, and multiple versions of the production code can be supported at the same time.
+    Since it consists of many teams, this strategy with the various types of branches 
+    make it intuitive to organize work in the team, and multiple versions of the 
+    production code can be supported at the same time.
     ```
     e. MNC & Banking with multiple large team of developers (10 teams of 12 developers)
     ```
     Git Flow Branch Strategy.
-    Since it consists of many teams, this strategy with the various types of branches make it intuitive to organize work in the team, and multiple versions of the production code can be supported at the same time.
+    Since it consists of many teams, this strategy with the various types of branches 
+    make it intuitive to organize work in the team, and multiple versions of the 
+    production code can be supported at the same time.
     ```
 
 ## Submission Guidelines
