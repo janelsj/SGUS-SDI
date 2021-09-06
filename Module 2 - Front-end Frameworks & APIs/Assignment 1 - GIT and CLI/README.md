@@ -81,16 +81,11 @@ Discussion Points:
                                                  which will be merged back into the main branch when the work is finished and reviewed.
 ```
 
-| PROS                                     | CONS                                       |
-|------------------------------------------|--------------------------------------------|
-| - GitHub flow is the most simple out of  | - This strategy is unable to support       |
-|   the three strategies.                  |   multiple versions of code in production  |
-|                                          |   at the same time.                        |
-| - The simplicity of this workflow allows | - The lack of dedicated development        |
-|   for Continuous Delivery and Continuous |   branches makes GitHub flow more          |
-|   Integration.                           |   susceptible to bugs in production.       |
-| - This strategy works well for small     |                                            |
-|   teams and web applications.            |                                            |
+| PROS                                                     | CONS                                       |
+|----------------------------------------------------------|--------------------------------------------|
+| - GitHub flow is the most simple out of the three strategies.| - This strategy is unable to support multiple versions of code in production at the same time.|
+| - The simplicity of this workflow allows for Continuous Delivery and Continuous Integration.| - The lack of dedicated development branches makes GitHub flow more susceptible to bugs in production.|
+| - This strategy works well for small teams and web applications.|                             |
 
 ```
 3. GitLab Flow Branch Strategy:
@@ -102,16 +97,11 @@ Discussion Points:
                                                      or release branches, depending on situation.
 ```
 
-| PROS                                     | CONS                                       |
-|------------------------------------------|--------------------------------------------|
-| - Simpler than Git Flow Branch Strategy, | - Not the simplest strategy.               |
-|   but more complex than GitHub Flow      |                                            |
-|   Branch Strategy.                       |                                            |
-| - More organised and structured than the | - Can lead to messy collaboration as it's  |
-|   GitHub Flow Branch Strategy.           |   not the most structured branching        |
-|                                          |   strategy.                                |
-| - GitLab Flow can allow for Continuous   |                                            |
-|   Delivery and versioned releases.       |                                            |
+| PROS                                                     | CONS                                       |
+|----------------------------------------------------------|--------------------------------------------|
+| - Simpler than Git Flow Branch Strategy, but more complex than GitHub Flow Branch Strategy.| - Not the simplest strategy.|
+| - More organised and structured than the GitHub Flow Branch Strategy.| - Can lead to messy collaboration as it's not the most structured branching strategy.|
+| - GitLab Flow can allow for Continuous Delivery and versioned releases.|                  |
 
 
 2. Which branching strategy looks the most practical for you personally?
