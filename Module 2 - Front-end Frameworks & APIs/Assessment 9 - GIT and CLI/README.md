@@ -12,8 +12,9 @@ You are to write a documentation that contain CLI Commands to:
 
 Input the CLI Commands here.
 
-## CLI Commands Documentation for Windows Powershell
+### CLI Commands Documentation for Windows Powershell
 - #### Section 1: Move main folder to the home directory
+```
     1. Open code editor.
     2. Open new terminal with Ctrl+Shift+`
     3. To get the current location of Main folder in directory,
@@ -24,8 +25,9 @@ Input the CLI Commands here.
             type: move [current directory path] [home directory path]
                   (eg. move "C:\Users\Documents\GitHub\SGUS-SDI\Module 2\Assessment 9\Main" "C:\Main");
             press: enter.
-
+```
 - #### Section 2: Delete folder_c after moving to the home directory
+```
     1. To get to the home directory (ie. root folder of the file system, the C:\ drive),
             type: cd\
             press: enter.
@@ -36,20 +38,21 @@ Input the CLI Commands here.
             type: rmdir folder_c
             press: enter
             type: "Y" (confirmation to agree deletion of folder_c)
-
+```
 - #### Section 3: Rename 'Folder A' to 'folder-a'
+```
     1. Check that you are in C:\Main. Otherwise, repeat steps 1 and 2 of Section 2.
     2. Change name of 'Folder A':
             type: ren "Folder A" "folder-a"
             press: enter.
-    
-
+```    
 - #### Section 4: Copy 'folder-b' to 'folder-a'
+```
     1. Check that you are in C:\Main. Otherwise, repeat steps 1 and 2 of Section 2.
     2. Copy 'folder-b' into 'folder-a':
         type: copy folder-b folder-a
         press: enter.
-
+```
 ## Submission Guidelines
 
 - Cite any relevant sources consulted during your research
