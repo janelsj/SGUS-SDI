@@ -63,7 +63,7 @@ Discussion Points:
         Primary branches -> MAIN and DEVELOP.
         Supporting branches -> FEATURE, RELEASE, HOTFIX (hold changes related to emergency bug fixes).
 ```
-         _______________________________________________________________________________________
+
         | PROS                                     | CONS                                       |
         |------------------------------------------|--------------------------------------------|
         | - The various types of branches make it  | - This strategy could overcomplicate and   |
@@ -73,7 +73,7 @@ Discussion Points:
         | - Multiple versions of the production    |   or Continuous Delivery due to the long   |
         |   code can be supported with the release |   development cycle.                       |
         |   branches.                              |                                            |
-        |__________________________________________|____________________________________________|
+
 ```
 2. GitHub Flow Branch Strategy:
         Branches include: MAIN, FEATURE.
@@ -112,12 +112,14 @@ Discussion Points:
         | - GitLab Flow can allow for Continuous   |                                            |
         |   Delivery and versioned releases.       |                                            |
         |__________________________________________|____________________________________________|
-```
+
+
 2. Which branching strategy looks the most practical for you personally?
 ```
 GitHub Flow Branch Strategy, since our team is small and and this strategy also allows for
 continuous delivery and continuous integration.
 ```
+
 3. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
     a. Startup with less than 5 developers
     ```
