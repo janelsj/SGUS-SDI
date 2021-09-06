@@ -1,0 +1,1 @@
+// Export an object literal using ES6
