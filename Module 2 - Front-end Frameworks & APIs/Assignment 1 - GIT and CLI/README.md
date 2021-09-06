@@ -43,7 +43,10 @@ Common version control tools used include:
 ```
 2. Why are they being used?
 ```
-Version control tools are used to allow us to keep track of the changes in the code so that if something goes wrong, we can make comparisons in different code versions and revert to any previous version that we want. This is necessary particularly where multiple developers are continuously working on changing the source code.
+Version control tools are used to allow us to keep track of the changes in the code so that 
+if something goes wrong, we can make comparisons in different code versions and revert to 
+any previous version that we want. This is necessary particularly where multiple developers 
+are continuously working on changing the source code.
 ```
 ### Part 2
 
@@ -64,15 +67,15 @@ Discussion Points:
         Supporting branches -> FEATURE, RELEASE, HOTFIX (hold changes related to emergency bug fixes).
 ```
 
-        | PROS                                     | CONS                                       |
-        |------------------------------------------|--------------------------------------------|
-        | - The various types of branches make it  | - This strategy could overcomplicate and   |
-        |   intuitive to organize work in the team.|   slow the development process and release |
-        | - The systematic development process     |   cycles.                                  |
-        |   allows for efficient testing.          | - Cannot support Continuous Integration    |
-        | - Multiple versions of the production    |   or Continuous Delivery due to the long   |
-        |   code can be supported with the release |   development cycle.                       |
-        |   branches.                              |                                            |
+| PROS                                     | CONS                                       |
+|------------------------------------------|--------------------------------------------|
+| - The various types of branches make it  | - This strategy could overcomplicate and   |
+|   intuitive to organize work in the team.|   slow the development process and release |
+| - The systematic development process     |   cycles.                                  |
+|   allows for efficient testing.          | - Cannot support Continuous Integration    |
+| - Multiple versions of the production    |   or Continuous Delivery due to the long   |
+|   code can be supported with the release |   development cycle.                       |
+|   branches.                              |                                            |
 
 ```
 2. GitHub Flow Branch Strategy:
@@ -121,6 +124,7 @@ continuous delivery and continuous integration.
 ```
 
 3. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
+
     a. Startup with less than 5 developers
     ```
     GitHub Flow Branch Strategy.
