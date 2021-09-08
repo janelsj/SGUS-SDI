@@ -9,6 +9,7 @@
 */
 
 // Add code here to import sms.js
+import send from "./sms.js";
 
 const messages = [
     {
@@ -34,6 +35,7 @@ const messages = [
 ]
 
 // Use Promise.all() and Array#map to send all the messages.
-
+const messageArray = messages.map(({to, message}) => send(to, message));
+await Promise.all(messageArray);
 
 console.log("END"); // This line must be printed last.

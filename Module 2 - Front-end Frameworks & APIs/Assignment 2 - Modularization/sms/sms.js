@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-function send(to, message){
+function send(to, message) {
     const duration = _.random(1,3);
 
     return new Promise((resolve) => {
