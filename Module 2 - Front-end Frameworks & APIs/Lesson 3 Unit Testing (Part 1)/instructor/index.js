@@ -1,30 +1,34 @@
 const _ = require("lodash");
 
-const hobby = 'coding';
-
+// Part 1 - simple assertions
 function sum(a, b){
-    if(typeof a !== 'number' || typeof b !== 'number'){
-        throw new Error("Arguments must be numeric");
-    }
     return a + b;
 }
 
-function rollDice(){
-    return _.random(1, 6, false);
+// Part 2 - mock a function
+function numPlusOne(a){
+    return this.addOne(a);
 }
 
 function addOne(a){
     return a + 1;
 }
 
-function numPlusOne(a){
-    return this.addOne(a);
+// Part 3 - mock a module
+function rollDice(){
+    return _.random(1, 6, false);
+}
+
+
+// Part 4 - throw an error
+function throwAnError(){
+    throw new Error("TEST");
 }
 
 module.exports = {
-    hobby,
     sum,
     rollDice,
     numPlusOne,
-    addOne
+    addOne,
+    throwAnError
 }

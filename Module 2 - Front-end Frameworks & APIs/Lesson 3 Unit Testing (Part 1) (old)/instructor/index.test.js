@@ -35,7 +35,7 @@ describe("write test cases in class", ()=>{
     // 4. Expect an error
     it("should throw an error when arguments are strings", () => {
         expect(()=>{
-            appCode.throwAnError();
-        }).toThrow("TEST");
+            appCode.sum("a",1);
+        }).toThrow("Arguments must be numeric");
     })
 });
