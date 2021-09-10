@@ -6,8 +6,9 @@ function sum(a, b){
 }
 
 // Part 2 - mock a function
-function numMinusOne(a){
-    return this.minusOne(a);
+function numMinusOne(a) {
+    const result = this.minusOne(a) + 3;
+    return result;
 }
 
 function minusOne(a){

@@ -1,7 +1,6 @@
 {
   "name": "instructor",
   "version": "1.0.0",
-  "description": "",
   "main": "app-code.js",
   "scripts": {
     "test": "jest"
@@ -13,5 +12,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "description": ""
 }
