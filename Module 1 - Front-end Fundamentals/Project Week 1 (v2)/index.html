@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <script defer src = "./script.js"></script>
+    <title>To-Do App</title>
+</head>
+
+<body>
+    <h3 class = "font-effect-shadow-multiple" id="user">To-Do List</h3>
+
+    <form method="get" id="taskInput">
+        <fieldset form="taskInput">
+            <legend class = "font-effect-shadow-multiple">Add Task</legend>
+            <label for="newItem">Task:</label>
+            <input type="text" id="newItem" placeholder="Add new item..." required />
+            <label for="dueDate">Due date:</label>
+            <input type="text" id="dueDate" placeholder="Due by: dd/mm/yyyy" onfocus="(this.type='date')" onblur="(this.type='text')" required />
+            <button type="submit">Add item</button>
+        </fieldset>
+    </form>
+
+    <div id = "noTask">
+        <h3 class = "font-effect-shadow-multiple">All tasks completed!</h3>
+    </div>
+
+    <form method="post" id="taskList">
+        <fieldset>
+            <legend class = "font-effect-shadow-multiple">My Tasks</legend>
+            <button type="reset">Clear All</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
