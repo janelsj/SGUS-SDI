@@ -2,25 +2,11 @@
 
 ## Brief
 
-Create a TODO Web Application using a combination of skills you have acquired to date, such a:
+In this assignment, you will attempt to pick a certain API endpoint [here](https://data.gov.sg/developer). You should demonstrate the ability to read and understand API documentations and consume it.
 
-- HTML & CSS (Week 1, Lesson 1.1, Lesson 1.2)
-- DOM Manipulation (Lesson 1.9)
-- Event Listener (Lesson 1.10)
-- JavaScript (Majority of Module 1)
+## Additional Challenge:
 
-In the TODO Web Application, you should include the following use case minimally:
-
-1. Define a name of this owner.
-1. Add Task.
-
-Additional Challenge:
-
-1. Rename this owner.
-1. Provide a checkbox to strike off task(s) (soft delete).
-1. Provide a "Clear" button to delete all tasks.
-
-No code base is provided for this assignment. You are required to setup the project.
+You may consider representing the data using HTML and CSS.
 
 ## Submission Guidelines
 
