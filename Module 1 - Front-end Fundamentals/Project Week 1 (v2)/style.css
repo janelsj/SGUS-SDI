@@ -45,9 +45,9 @@ button:hover, button:focus {
     border-radius: 10px;
 }
 
-/* #taskList {
+#taskList {
     display: none;
-} */
+}
 
 #noTask, fieldset {
     margin: 15px;
