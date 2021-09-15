@@ -1,1 +1,0 @@
-// Run `npm install` to install dependencies before writing test code.
