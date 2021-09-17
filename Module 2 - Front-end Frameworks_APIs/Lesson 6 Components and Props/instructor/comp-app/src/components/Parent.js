@@ -4,7 +4,7 @@ import ThirdSibling from './ThirdSibling';
 
 // Functional component
 function SecondSibling(){
-    return <div>It is not recommended to define me outside a class</div>
+    return <div>It is <s>not</s> recommended to define me outside a class</div>
 }
 
 class Parent extends React.Component {
