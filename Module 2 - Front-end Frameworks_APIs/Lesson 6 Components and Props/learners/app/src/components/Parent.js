@@ -17,10 +17,10 @@ class Parent extends React.Component {
     render(){
         return(<>
             <h1>I am a Parent component</h1>
-            <Child name="Jane" />
+            <Child name="Child Component" />
             <this.Sibling/>
             <SecondSibling/>
-            <ThirdSibling name="Lim"/>
+            <ThirdSibling name="Sibling3"/>
         </>); // notice the braces when return multiple JSX element.
     }
 }

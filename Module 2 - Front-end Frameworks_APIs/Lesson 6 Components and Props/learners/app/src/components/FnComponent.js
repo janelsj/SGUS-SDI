@@ -33,7 +33,7 @@ class FnComponent extends React.Component {
             <ChildComponent1 name = "child1"/>
             <this.ChildComponent2 name ="child2"/>
             {this.childComponent3("child3")}    
-            <ChildComponent4 />
+            <ChildComponent4 name = "child4"/>
         </div>)
     }
 }
