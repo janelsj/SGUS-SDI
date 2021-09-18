@@ -4,15 +4,13 @@ import Child from './Child.js';
 class Parent extends React.Component {
 
     setChildParameters (heading, headingurl, title1, title1url, title2, title2url, title3, title3url, viewAll = "View all questions") {
-        return(<>
-            <div className="children">
-                <Child heading={heading} link={headingurl}></Child> <br/>
-                <Child title1={title1} link={title1url}></Child>
-                <Child title2={title2} link={title2url}></Child>
-                <Child title3={title3} link={title3url}></Child>
-                <Child viewAll={viewAll} link={headingurl}></Child>
-            </div>
-        </>)
+        return(<div className="children">
+                    <Child heading={heading} link={headingurl} /> <br/>
+                    <Child title1={title1} link={title1url} />
+                    <Child title2={title2} link={title2url} />
+                    <Child title3={title3} link={title3url} />
+                    <Child viewAll={viewAll} link={headingurl} />
+            </div>)
     }
 
     render() {
