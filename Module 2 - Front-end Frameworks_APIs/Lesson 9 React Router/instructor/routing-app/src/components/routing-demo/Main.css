@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    flex-direction:row;    
+    min-height:100vh;
+}
+
+.menu{
+    flex:1
+}
+
+.menu > div {
+    padding:10px;
+}
+
+.content{
+    flex:5
+}
+
+.tab-selection{
+    display:flex;
+    border:1px solid black;
+    width:400px;
+    justify-content:space-evenly;
+}
+
+.tab-selection > div {
+    border:1px solid red;
+    width:100%;
+    text-align:center;
+}
+
+.tab-container > div {
+    width:400px;
+    text-align:center;
+    padding-top:50px;
+}
