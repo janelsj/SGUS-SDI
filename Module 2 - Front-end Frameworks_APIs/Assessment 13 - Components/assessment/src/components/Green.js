@@ -8,7 +8,7 @@ class Green extends React.Component {
         super();
         this.state = {
             product1: <Blue title="Product 1" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quam officia ut nulla soluta eveniet optio, omnis tempora nostrum est tempore eum ratione eos debitis obcaecati dolor illo repellendus laborum?" />,
-            product2: <Blue title="Product 2" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quam officia ut nulla soluta eveniet optio, omnis tempora nostrum est tempore eum ratione eos debitis obcaecati dolor illo repellendus laborum?" />,
+            product2: <Blue title="Product 2" details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />,
         };
     }
 
