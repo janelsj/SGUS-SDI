@@ -33,7 +33,7 @@ class LightState extends React.Component {
 
     render() {
         return(<div id="container">
-            <div id="bulb">{this.image()}</div>
+            <div>{this.image()}</div>
             <button onClick={this.onClickHandler}>Toggle</button>
         </div>)
     }
