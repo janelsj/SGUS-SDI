@@ -56,7 +56,14 @@ function submit() {
         getResult().then(result => {
             const timestamp = new Date().getTime();
             let dataObject = {userInput: dataElement.value, apiData: result};
-            localStorage.setItem(timestamp, JSON.stringify(dataObject));
+
+            //Ensures that "userInput entry + related apiData" pair is not repeated:
+            const findResult = Object.keys(localStorage).find(key => {
+                return JSON.parse(localStorage.getItem(key)).apiData === result;
+            });
+            if (!findResult) {
+                localStorage.setItem(timestamp, JSON.stringify(dataObject));
+            };
             location.reload();
         }).catch(error => console.log(error));
     }
