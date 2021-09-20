@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Blue extends React.Component{
-    
+class Blue extends React.Component {
     render() {
         const {title, details} = this.props;
         return (<div className="blue">
