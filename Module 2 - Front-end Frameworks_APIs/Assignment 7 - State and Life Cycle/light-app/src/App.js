@@ -1,12 +1,9 @@
-import LightOff from './components/LightOff';
-import LightOn from './components/LightOn';
+import LightState from './components/LightState';
 import './App.css';
 
 function App() {
   return (<>
-    <LightOn />
-    <LightOff />
-    
+    <LightState />    
   </>);
 }
 
