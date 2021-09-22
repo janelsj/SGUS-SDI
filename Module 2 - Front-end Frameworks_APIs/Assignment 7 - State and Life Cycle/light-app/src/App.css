@@ -1,9 +1,18 @@
-#container{
+#parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: min-content;
+}
+
+.container {
+    align-self: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    margin: 0px 70px 70px 70px;
 }
 
 button {
