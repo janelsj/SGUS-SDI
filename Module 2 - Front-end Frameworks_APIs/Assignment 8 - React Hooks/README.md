@@ -4,12 +4,12 @@
 
 In the previous assignment, you have worked on this identical layout using functional component and hooks.
 
-<img src="./assets/images/toggle-light.png" />
+<img src="./light-interval/components/assets/images/toggle-light.png" />
 
 The orange box is an image display of either a turned on or off light bulb. Use these images and you can find them at `./assets/images` folder:
 
-<img src="./assets/images/light-off.png" >
-<img src="./assets/images/light-on.png" >
+<img src="./light-interval/components/assets/images/light-off.png" >
+<img src="./light-interval/components/assets/images/light-on.png" >
 
 In this assignment, you are to remove the `toggle` button and set an interval at every 1 second to turn on and off the light bulb.
 
