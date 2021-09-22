@@ -1,0 +1,25 @@
+.parent {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.order {
+  margin: 80px;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.count{
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid black;
+}
+.order>button, .count>button {
+  margin: 10px;
+}
