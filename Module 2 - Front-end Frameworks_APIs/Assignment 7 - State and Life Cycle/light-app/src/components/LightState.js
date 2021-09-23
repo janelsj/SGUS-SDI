@@ -81,30 +81,25 @@ class LightState3 extends React.Component {
     constructor(){
         super();
         this.state = {
-            isLightOn: false,
+            isLightOn: lightOff,
         };
-    }
-    
-    image() {
-        if(this.state.isLightOn){
-            return lightOn;
-        } else {
-            return lightOff;
-        } 
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if(prevState.isLightOn === this.state.isLightOn) {
-            this.setState({isLightOn: !this.state.isLightOn});
-        };
+        if(prevState.isLightOn !== this.state.isLightOn) {
+            console.log("current state status:", this.state.isLightOn);
+        } else {
+            console.log("previous state status:", prevState.isLightOn);
+            this.setState({isLightOn: lightOff});
+        }
     }
 
     render() {
         return(<>
         <h4>Method 3: Without eventHandler function, using componentDidUpdate</h4>
         <div className="container">
-            <img src={this.image()} />
-            <button onClick={()=>this.componentDidUpdate(this.props, this.state)}>Toggle</button>
+            <img src={this.state.isLightOn} />
+            <button onClick={()=>this.setState({isLightOn: lightOn})}>Toggle</button>
         </div>
         </>)
     }
