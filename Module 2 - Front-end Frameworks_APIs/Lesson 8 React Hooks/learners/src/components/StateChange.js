@@ -13,13 +13,16 @@ function Count() {
     const [count, setCount] = useState(0);
     const [countOdd, setCountOdd] = useState(1);
     const [countEven, setCountEven] = useState(0);
+    const [onLoad, setLoad] = useState(false);
 
     useEffect(() => {
         console.log("initialize");
         document.title = `You clicked ${count} times`;
-        
+        if(onLoad) {
+            document.title = `onLoad is now true`;
+        }
         return () => console.log("exit"); //Important to include 'return a function' as Cleanup runs after every render.
-    }, [count])
+    }, [count, onLoad])
 
     return (
         <div className="count">
@@ -31,8 +34,8 @@ function Count() {
             <button onClick = {() => setCountOdd(countOdd+2)}>+2</button> <br />
             <button onClick = {() => setCountEven(countEven-2)}>-2</button>
             {countEven}
-            <button onClick = {() => setCountEven(countEven+2)}>+2</button>
-            
+            <button onClick = {() => setCountEven(countEven+2)}>+2</button> <br/>
+            <button onClick = {() => {setLoad(!onLoad)}}>Toggle Load / Reload</button>
         </div>
     )
 }
