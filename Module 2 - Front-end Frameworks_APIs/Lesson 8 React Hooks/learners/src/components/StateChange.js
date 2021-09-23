@@ -17,14 +17,15 @@ function Count() {
 
     useEffect(() => {
         console.log("initialize");
-        document.title = `You clicked ${count} times`;
+        document.getElementById('text').innerText = `You clicked ${count} times`;
         if(onLoad) {
-            document.title = `onLoad is now true`;
+            document.getElementById('text').innerText = `onLoad is now true`;
         }
         return () => console.log("exit"); //Important to include 'return a function' as Cleanup runs after every render.
     }, [count, onLoad])
 
-    return (
+    return (<>
+        <div id = "text"></div>
         <div className="count">
             <button onClick = {() => setCount(count-1)}>-</button>
             {count}
@@ -37,7 +38,7 @@ function Count() {
             <button onClick = {() => setCountEven(countEven+2)}>+2</button> <br/>
             <button onClick = {() => {setLoad(!onLoad)}}>Toggle Load / Reload</button>
         </div>
-    )
+    </>)
 }
 
 export {Order, Count};

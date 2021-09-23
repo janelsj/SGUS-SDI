@@ -1,5 +1,5 @@
 .parent {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -7,14 +7,14 @@
 }
 
 .order {
-  margin: 80px;
+  margin: 50px;
   align-self: center;
   text-align: center;
   padding: 10px;
   border: 2px solid black;
 }
 
-.count{
+.count {
   font-size: larger;
   font-weight: 600;
   text-align: center;
