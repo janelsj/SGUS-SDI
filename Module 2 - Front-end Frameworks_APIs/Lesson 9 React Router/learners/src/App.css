@@ -1,0 +1,26 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: min-content;
+}
+
+.child {
+    margin: 30px;
+    align-self: center;
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    margin: auto 40px;
+    text-align: center;
+}
+
+ul {
+    margin: 10px;
+}
