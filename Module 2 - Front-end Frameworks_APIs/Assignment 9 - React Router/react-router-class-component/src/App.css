@@ -1,0 +1,53 @@
+#parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: powderblue;
+}
+
+.navbar{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.navbar>div{
+  padding: 10px;
+}
+
+#apple, #orange, #banana, #error {
+  padding: 20px;
+  min-height: 70vh;
+  width: 60vw;
+}
+
+.navbar>div:nth-child(1), #apple{
+  border: 2px solid lightseagreen;
+  background-color: palegreen;
+}
+
+.navbar>div:nth-child(2), #orange{
+  border: 2px solid orange;
+  background-color: #ffdead;
+}
+
+.navbar>div:nth-child(3), #banana{
+  border: 2px solid #ffef00;
+  background-color:#fffacd;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: dimgray;
+  font-style: italic;
+}
