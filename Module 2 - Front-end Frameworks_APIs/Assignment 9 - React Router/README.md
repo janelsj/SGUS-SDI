@@ -11,7 +11,7 @@ The content should change according to the selected tab. You are to use `<Browse
 
 ## Code Challenge
 
-- Attempt to use <BrowserHash> and observe the difference.
+- Attempt to use `<HashRouter>` and observe the difference.
 - Attempt routing programmatically (refer to lesson's slides and code).
 - Convert to use class component.
 

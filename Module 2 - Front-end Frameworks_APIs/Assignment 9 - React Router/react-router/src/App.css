@@ -23,6 +23,14 @@
   padding: 20px;
   min-height: 70vh;
   width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error {
+  border: 2px solid gray;
+  background-color: white;
 }
 
 .navbar>div:nth-child(1), #apple{
@@ -46,7 +54,7 @@ a {
   font-weight: bolder;
 }
 
-a:hover {
+a:hover, a:focus {
   text-decoration: underline;
   color: dimgray;
   font-style: italic;
