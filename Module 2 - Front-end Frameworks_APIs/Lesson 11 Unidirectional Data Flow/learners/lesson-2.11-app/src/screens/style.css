@@ -1,0 +1,31 @@
+#parent{
+    display: block;
+    margin: 10px auto;
+    max-width: fit-content;
+}
+
+div{
+    margin: 30px;
+}
+
+label {
+    font-weight: 600;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-auto-flow: row;
+    grid-gap: 15px 15px;
+}
+
+#form {
+    padding: 30px;
+    background-color: cornsilk;
+    border: 2px solid gold;
+}
+
+#list {
+    background-color: azure;
+    border: 2px solid lightskyblue;
+}
