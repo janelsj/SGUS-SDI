@@ -1,0 +1,46 @@
+.App {
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 30px 15px;
+  text-align: right;
+  font-size: large;
+  font-weight: 500;
+}
+
+h3 {
+  grid-area: 1/1/2/4;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+button:hover, button:focus {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button, input {
+  border-radius: 7px;
+  border: 1px solid silver;
+}
+
+button {
+  height: 23px;
+}
+
+.output {
+  grid-area: 3/1/4/4;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px lightgray;
+  border-radius: 10px;
+  border: 2px solid grey;
+  padding: 30px;
+  text-align: left;
+}
