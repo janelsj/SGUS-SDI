@@ -1,0 +1,71 @@
+#parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: powderblue;
+}
+
+.navbar{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.navbar>div{
+  padding: 10px;
+}
+
+#apple, #orange, #banana, #error {
+  padding: 20px;
+  min-height: 70vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error {
+  border: 2px solid gray;
+  background-color: white;
+}
+
+button {
+  border-radius: 0px;
+  background-color: inherit;
+  padding: 10px;
+}
+
+.navbar>button:nth-child(1), #apple{
+  border: 2px solid lightseagreen;
+  background-color: palegreen;
+}
+
+.navbar>button:nth-child(2), #orange{
+  border: 2px solid orange;
+  background-color: #ffdead;
+}
+
+.navbar>button:nth-child(3), #banana{
+  border: 2px solid #ffef00;
+  background-color:#fffacd;
+}
+
+button {
+  font-weight: bolder;
+}
+
+a:hover, a:focus {
+  cursor: pointer;
+  text-decoration: underline;
+  color: dimgray;
+  font-style: italic;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
