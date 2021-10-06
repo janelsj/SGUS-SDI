@@ -88,7 +88,7 @@ Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 |       :------:          |--------------------|
 | **Daily Scrum** | **Daily meeting** for accountability, and daily update of what had been done the last 24 hours, what will be done in the next 24 hours, and identification of any blockers (things that are hindering progress).
 | **Sprint Planning** | **Meeting once a week/fortnight/month (depending on duration of a Sprint)** to plan for the tasks for next Sprint. 
-| **Retrospective Review** | **Meeting at end of each Sprint** to reflect on what worked well, what could be improved upon and how, as well as commitments or an action plan to implement the suggestions for improvement.
+| **Retrospective Review** | **Meeting at the end of each Sprint** to reflect on what worked well, what could be improved upon and how, as well as commitments or an action plan to implement the suggestions for improvement.
 
 \
 &nbsp;
