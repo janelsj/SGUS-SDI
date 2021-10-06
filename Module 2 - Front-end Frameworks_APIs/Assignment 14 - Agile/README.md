@@ -27,19 +27,21 @@ The result of it should look like this:
 ## Part 2 - Research and Discuss
 \
 \
-__Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.__
+&nbsp;
+**Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.**
 
-```
-The manifesto prioritises:
+```The manifesto prioritises:
 - individuals and interactions over processes and tools
 - a working software over comprehensive documentation
 - continuous collaboration with customers over contract negotiation
 - expecting changes and responding to them over following a plan
 ```
-\
-\
 
-__Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?__
+\
+\
+&nbsp;
+
+**Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?**
 
 | **Principles commonly violated** | **What can be done differently** |
 |----------------------------------|----------------------------------|
@@ -48,8 +50,9 @@ __Agile Methodology does not just apply to software development but any project 
 
 \
 \
+&nbsp;
 
-__What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.__
+**What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.**
 
 ```
 3 roles: Product owner, Scrum Master, Development Team
@@ -62,6 +65,7 @@ __What are the three roles that make up a SCRUM Team? Explain the function(s) of
 
 \
 \
+&nbsp;
 
 __What are the SCRUM Values?__
 
@@ -75,9 +79,10 @@ __What are the SCRUM Values?__
 - **Courage** to admit that we do not know everything
 \
 \
-
+&nbsp;
 
 **How many types of meetings are there in SCRUM? What is the purpose of each of them?**
+
 ```
 Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 ```
