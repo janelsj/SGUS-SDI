@@ -22,7 +22,9 @@ Once you are done, setup 5 columns:
 The result of it should look like this:
 
 <img src="./assets/images/trello.png" />
-
+\
+\
+\
 ## Part 2 - Research and Discuss
 
 __Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.__
@@ -34,16 +36,18 @@ The manifesto prioritises:
 - continuous collaboration with customers over contract negotiation
 - expecting changes and responding to them over following a plan
 ```
-
-
+\
+\
+\
 __Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?__
 
 | **Principles commonly violated** | **What can be done differently** |
 |----------------------------------|----------------------------------|
 |1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| Can be overcome through early planning of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
 |2. |   |
-
-
+\
+\
+\
 __What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.__
 
 ```
@@ -51,12 +55,12 @@ __What are the three roles that make up a SCRUM Team? Explain the function(s) of
 ```
 | **Roles in a SCRUM Team** | **Functions associated with the role** |
 |---------------------------|----------------------------------------|
-| **Product Owner** | - Manages the Product Backlog 
- - Optimizes the value of the Product |
-| **Scrum Master** | - Manages the Scrum process \ - Removes any hindrances/ impediments to project progression |
+| **Product Owner** | - Manages the Product Backlog\ - Optimizes the value of the Product |
+| **Scrum Master** | - Manages the Scrum process\ - Removes any hindrances/ impediments to project progression |
 | **Development Team** | - Manages itself \ - Creates "Done" Increments|
-
-
+\
+\
+\
 __What are the SCRUM Values?__
 
 ```
@@ -67,8 +71,9 @@ __What are the SCRUM Values?__
 - **Openness** (frequent inspection) through delivering
 - **Respect** others and their roles: cross-functioning, self-organizing team
 - **Courage** to admit that we do not know everything
-
-
+\
+\
+\
 __How many types of meetings are there in SCRUM? What is the purpose of each of them?__
 ```
 Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
