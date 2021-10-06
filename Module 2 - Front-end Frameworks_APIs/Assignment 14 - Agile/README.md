@@ -45,7 +45,8 @@ The manifesto prioritises:
 | **Principles commonly violated** | **What can be done differently** |
 |----------------------------------|----------------------------------|
 |1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| **Early planning** of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
-|2. Build projects around **motivated** individuals. Give them the environment and support they need, and **trust** them to get the job done.| **Get everyone onto the same page** and ensure that their **concerns are addressed** so that everyone can be working towards the same goal on the agenda with a personal purpose behind achieving the goal. **Respect each individual's roles** and maintain a friendly culture for asking and receiving help whenever required. | 3. Business people and developers must **work together daily** throughout the project. | **Manage and clarify expectations** before embarking on project that each working day should start with a short meeting to update relevant stakeholders or parties on the status and progress of project (including blockers). |
+|2. Build projects around **motivated** individuals. Give them the environment and support they need, and **trust** them to get the job done.| **Get everyone onto the same page** and ensure that their **concerns are addressed** so that everyone can be working towards the same goal on the agenda with a personal purpose behind achieving the goal. **Respect each individual's roles** and maintain a friendly culture for asking and receiving help whenever required. |
+| 3. Business people and developers must **work together daily** throughout the project. | **Manage and clarify expectations** before embarking on project that each working day should start with a short meeting to update relevant stakeholders or parties on the status and progress of project (including blockers). |
 
 \
 &nbsp;
