@@ -39,28 +39,31 @@ The manifesto prioritises:
 
 \
 &nbsp;
+
 **Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?**
 
 | **Principles commonly violated** | **What can be done differently** |
 |----------------------------------|----------------------------------|
-|1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| Can be overcome through early planning of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
-|2. |   |
+|1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| **Early planning** of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
+|2. Build projects around **motivated** individuals. Give them the environment and support they need, and **trust** them to get the job done.| **Get everyone onto the same page** and ensure that their **concerns are addressed** so that everyone can be working towards the same goal on the agenda with the a personal purpose behind the achieving the goal. **Respect each individual's roles** and maintain a friendly culture for asking and receiving help whenever required. | 3. Business people and developers must **work together daily** throughout the project. | **Manage and clarify expectations** before embarking on project that each working day should start with a short meeting to update relevant stakeholders or parties on the status and progress of project (including blockers). |
 
 \
 &nbsp;
+
 **What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.**
 
 ```
 3 roles: Product owner, Scrum Master, Development Team
 ```
-| **Roles in a SCRUM Team** | **Functions associated with the role** |
-|---------------------------|----------------------------------------|
+| Roles in a SCRUM Team | Functions associated with the role |
+|       :------:        |------------------------------------|
 | **Product Owner** | - Manages the Product Backlog<br/>- Optimizes the value of the Product |
-| **Scrum Master** | - Manages the Scrum process\ - Removes any hindrances/ impediments to project progression |
-| **Development Team** | - Manages itself \ - Creates "Done" Increments|
+| **Scrum Master** | - Manages the Scrum process<br/>- Removes any hindrances/ impediments to project progression |
+| **Development Team** | - Manages itself<br/>- Creates "Done" Increments|
 
 \
 &nbsp;
+
 **What are the SCRUM Values?**
 
 ```
@@ -74,6 +77,7 @@ The manifesto prioritises:
 
 \
 &nbsp;
+
 **How many types of meetings are there in SCRUM? What is the purpose of each of them?**
 
 ```
@@ -85,7 +89,6 @@ Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 
 \
 &nbsp;
-
 ## Submission Guidelines
 
 - Cite any relevant sources consulted during your research
