@@ -39,7 +39,7 @@ The manifesto prioritises:
 __Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?__
 
 | **Principles commonly violated** | **What can be done differently** |
------------------------------------------------------------------------
+|----------------------------------|----------------------------------|
 |1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| Can be overcome through early planning of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
 |2. |   |
 
@@ -50,8 +50,9 @@ __What are the three roles that make up a SCRUM Team? Explain the function(s) of
 3 roles: Product owner, Scrum Master, Development Team
 ```
 | **Roles in a SCRUM Team** | **Functions associated with the role** |
-----------------------------------------------------------------------
-| **Product Owner** | - Manages the Product Backlog \ - Optimizes the value of the Product |
+|---------------------------|----------------------------------------|
+| **Product Owner** | - Manages the Product Backlog 
+ - Optimizes the value of the Product |
 | **Scrum Master** | - Manages the Scrum process \ - Removes any hindrances/ impediments to project progression |
 | **Development Team** | - Manages itself \ - Creates "Done" Increments|
 
