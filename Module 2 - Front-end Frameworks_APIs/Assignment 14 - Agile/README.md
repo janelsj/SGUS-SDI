@@ -26,7 +26,6 @@ The result of it should look like this:
 
 ## Part 2 - Research and Discuss
 \
-\
 &nbsp;
 **Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.**
 
@@ -38,7 +37,6 @@ The result of it should look like this:
 ```
 
 \
-\
 &nbsp;
 
 **Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?**
@@ -49,7 +47,6 @@ The result of it should look like this:
 |2. |   |
 
 \
-\
 &nbsp;
 
 **What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.**
@@ -59,11 +56,11 @@ The result of it should look like this:
 ```
 | **Roles in a SCRUM Team** | **Functions associated with the role** |
 |---------------------------|----------------------------------------|
-| **Product Owner** | - Manages the Product Backlog\ - Optimizes the value of the Product |
+| **Product Owner** | `- Manages the Product Backlog
+ - Optimizes the value of the Product` |
 | **Scrum Master** | - Manages the Scrum process\ - Removes any hindrances/ impediments to project progression |
 | **Development Team** | - Manages itself \ - Creates "Done" Increments|
 
-\
 \
 &nbsp;
 
@@ -77,7 +74,7 @@ __What are the SCRUM Values?__
 - **Openness** (frequent inspection) through delivering
 - **Respect** others and their roles: cross-functioning, self-organizing team
 - **Courage** to admit that we do not know everything
-\
+
 \
 &nbsp;
 
