@@ -29,7 +29,8 @@ The result of it should look like this:
 &nbsp;
 **Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.**
 
-```The manifesto prioritises:
+```
+The manifesto prioritises:
 - individuals and interactions over processes and tools
 - a working software over comprehensive documentation
 - continuous collaboration with customers over contract negotiation
@@ -38,7 +39,6 @@ The result of it should look like this:
 
 \
 &nbsp;
-
 **Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?**
 
 | **Principles commonly violated** | **What can be done differently** |
@@ -48,7 +48,6 @@ The result of it should look like this:
 
 \
 &nbsp;
-
 **What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.**
 
 ```
@@ -56,15 +55,13 @@ The result of it should look like this:
 ```
 | **Roles in a SCRUM Team** | **Functions associated with the role** |
 |---------------------------|----------------------------------------|
-| **Product Owner** | `- Manages the Product Backlog
- - Optimizes the value of the Product` |
+| **Product Owner** | - Manages the Product Backlog<br/>- Optimizes the value of the Product |
 | **Scrum Master** | - Manages the Scrum process\ - Removes any hindrances/ impediments to project progression |
 | **Development Team** | - Manages itself \ - Creates "Done" Increments|
 
 \
 &nbsp;
-
-__What are the SCRUM Values?__
+**What are the SCRUM Values?**
 
 ```
 5 values: Commitment, Focus, Openness/ Transparency, Respect, Courage
@@ -77,7 +74,6 @@ __What are the SCRUM Values?__
 
 \
 &nbsp;
-
 **How many types of meetings are there in SCRUM? What is the purpose of each of them?**
 
 ```
@@ -87,6 +83,8 @@ Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 - **Sprint Planning**: meeting once a fortnight to plan for next tasks for next Sprint. 
 - **Retrospective Review**: meeting at end of each Sprint to reflect on what worked well, what could be improved upon and how, as well as commitments/ an action plan to implement improvement suggestions.
 
+\
+&nbsp;
 
 ## Submission Guidelines
 
