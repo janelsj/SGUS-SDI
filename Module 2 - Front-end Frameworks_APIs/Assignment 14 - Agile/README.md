@@ -25,7 +25,7 @@ The result of it should look like this:
 
 ## Part 2 - Research and Discuss
 
-Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.
+__Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.__
 
 ```
 The manifesto prioritises:
@@ -36,29 +36,27 @@ The manifesto prioritises:
 ```
 
 
-Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?
+__Agile Methodology does not just apply to software development but any project management. Recollect the 12 principles of Agile and share which three principles are commonly violated in your experience and what can be done differently?__
 
 | **Principles commonly violated** | **What can be done differently** |
 -------------------------------------------------------------
 |1. The sponsors, developers, and users should be able to maintain a **constant pace** indefinitely.| Can be overcome through early planning of project backlog, which enables pacing through sprint backlogs and lists of things to be done.|
-|2. 
+|2. |   |
 
-What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.
+
+__What are the three roles that make up a SCRUM Team? Explain the function(s) of the three roles.__
 
 ```
 3 roles: Product owner, Scrum Master, Development Team
 ```
 | **Roles in a SCRUM Team** | **Functions associated with the role** |
 ------------------------------------------------------------
-| **Product Owner** | - Manages the Product Backlog 
-- Optimizes the value of the Product |
-| **Scrum Master** | - Manages the Scrum process
-- Removes any hindrances/ impediments to project progression |
-| **Development Team** | - Manages itself
-- Creates "Done" Increments|
+| **Product Owner** | - Manages the Product Backlog \ - Optimizes the value of the Product |
+| **Scrum Master** | - Manages the Scrum process \ - Removes any hindrances/ impediments to project progression |
+| **Development Team** | - Manages itself \ - Creates "Done" Increments|
 
 
-What are the SCRUM Values? 
+__What are the SCRUM Values?__
 
 ```
 5 values: Commitment, Focus, Openness/ Transparency, Respect, Courage
@@ -70,7 +68,7 @@ What are the SCRUM Values?
 - **Courage** to admit that we do not know everything
 
 
-How many types of meetings are there in SCRUM? What is the purpose of each of them?
+__How many types of meetings are there in SCRUM? What is the purpose of each of them?__
 ```
 Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 ```
