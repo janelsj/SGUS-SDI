@@ -24,7 +24,8 @@ The result of it should look like this:
 <img src="./assets/images/trello.png" />
 \
 \
-\
+
+
 ## Part 2 - Research and Discuss
 
 __Reflect on the [Agile Manifesto](https://agilemanifesto.org/), phrase them in no more than five sentences in your own words.__
@@ -58,6 +59,8 @@ __What are the three roles that make up a SCRUM Team? Explain the function(s) of
 | **Product Owner** | - Manages the Product Backlog\ - Optimizes the value of the Product |
 | **Scrum Master** | - Manages the Scrum process\ - Removes any hindrances/ impediments to project progression |
 | **Development Team** | - Manages itself \ - Creates "Done" Increments|
+
+
 \
 \
 \
@@ -74,7 +77,8 @@ __What are the SCRUM Values?__
 \
 \
 \
-__How many types of meetings are there in SCRUM? What is the purpose of each of them?__
+
+**How many types of meetings are there in SCRUM? What is the purpose of each of them?**
 ```
 Three types: Daily scrum meeting, sprint planning meeting, retrospective review.
 ```
