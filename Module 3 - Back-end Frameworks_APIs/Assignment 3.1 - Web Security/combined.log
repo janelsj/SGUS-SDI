@@ -1,0 +1,4 @@
+{"message":"User input numbers: 1 + 2","level":"info","service":"user-service"}
+{"message":"Total generated from 'sum' function: 3","level":"debug","service":"user-service"}
+{"message":"User input numbers: 1 + test","level":"info","service":"user-service"}
+{"message":"Arguments must be numeric","level":"error","service":"user-service"}
