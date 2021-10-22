@@ -22,6 +22,11 @@ Node.js introduced a workaround for this problem in version 10.5.0: worker threa
 Reference: https://livecodestream.dev/post/when-you-should-and-should-not-use-nodejs-for-your-project/
 
 
+Node is flawless if we are having asynchronous tasks because javascript will run these things by worker pool. But if we run CPU intense tasks(where we heavily use CPU ) e.g we have a billion users and we want to sort those people on name. It's quite an Intense tasks, and this is synchronous which will block other code from running.
+
+Reference: https://newbedev.com/why-is-node-js-not-suitable-for-heavy-cpu-apps
+
+
 A simple Node.js server is single-threaded, meaning that any operation that takes a long time to execute will block the rest of your program from running. Node.js apps manage to maintain a high level of concurrency by working as a series of events. When an event handler is waiting for something to happen (such as reading from the database), it tells Node to go ahead and process another event in the meantime. But since a single thread can only execute one instruction at a time, this approach can't save you from a function that needs to keep actively executing for a long time.
 
 Reference: https://stackoverflow.com/questions/16974557/why-is-node-js-not-suitable-for-heavy-cpu-apps
