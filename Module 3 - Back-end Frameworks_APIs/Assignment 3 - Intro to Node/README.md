@@ -20,6 +20,11 @@ However, there is a downside to Node.js being single-threaded. The single-thread
 Node.js introduced a workaround for this problem in version 10.5.0: worker threads. You can read up more on this topic to understand how to use worker threads to solve this problem for CPU-intensive programs.
 
 Reference: https://livecodestream.dev/post/when-you-should-and-should-not-use-nodejs-for-your-project/
+
+
+A simple Node.js server is single-threaded, meaning that any operation that takes a long time to execute will block the rest of your program from running. Node.js apps manage to maintain a high level of concurrency by working as a series of events. When an event handler is waiting for something to happen (such as reading from the database), it tells Node to go ahead and process another event in the meantime. But since a single thread can only execute one instruction at a time, this approach can't save you from a function that needs to keep actively executing for a long time.
+
+Reference: https://stackoverflow.com/questions/16974557/why-is-node-js-not-suitable-for-heavy-cpu-apps
 ```
 
 ## Submission Guidelines
