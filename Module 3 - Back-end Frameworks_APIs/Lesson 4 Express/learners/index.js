@@ -45,16 +45,14 @@ app.post('/fruit', function(request, response) {
 });
 
 app.put('/fruit/:name', function(request, response){
-    for (let fruit of fruits) {
-        if (fruit.name === request.params.name) {
-            fruit.name = request.body.name;
-            response.status(200);
-            return response.send("Updated successfully.")
-        } else {
-            response.status(404);
-            return response.send("Fruit does not exist.")
-        }
-    }
+    fruits.find(item => {
+        if (item.name === request.params.name) {
+        item.name = request.body.name;
+        response.status(200);
+        return response.send("Updated successfully.");
+    }});
+    response.status(404);
+    return response.send("Fruit does not exist.");
 });
 
 app.delete('/fruit/:name', function(request, response){
