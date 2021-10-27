@@ -24,7 +24,21 @@ You may use `pg_dump` to export your database and include the file in this repos
 
 
 ```sql
-// Enter your SQL Queries here
+CREATE TABLE car_park (
+    id serial PRIMARY KEY, 
+    address varchar(500) not null, 
+    number_of_slots int not null
+    );
+INSERT INTO car_park (address, number_of_slots) VALUES ('Blk 209 Ang Mo Kio', 3);
+CREATE TABLE parking_histories (
+    id serial PRIMARY KEY, 
+    vehicle_id int, 
+    CONSTRAINT fk_vehicle_id FOREIGN KEY (vehicle_id) REFERENCES vehicles(id), 
+    slot_number int not null, 
+    car_park_id int, 
+    CONSTRAINT fk_car_park_id FOREIGN KEY (car_park_id) REFERENCES car_park(id)
+    );
+INSERT INTO parking_histories (vehicle_id, slot_number, car_park_id) VALUES (5, 302, 1);
 ```
 
 ## Submission Guidelines
