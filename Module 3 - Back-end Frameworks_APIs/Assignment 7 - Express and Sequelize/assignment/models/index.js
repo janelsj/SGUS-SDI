@@ -18,12 +18,11 @@ const Vehicle = require("./vehicle.model")(sequelize);
 const Driver = require("./driver.model")(sequelize);
 
 // Create associations
-Vehicle.hasOne(Driver, {
-    as:"driver",
-    foreignKey:"driverId"
+Vehicle.belongsTo(Driver, {
+  foreignKey:"driverId",
+  as:"driver"
 });
 
-//Driver.belongsTo(Vehicle);
 
 async function addDataToDB(){
   try {
@@ -44,11 +43,12 @@ async function addDataToDB(){
       type: 'car',
       carPlateNo:'ABC123X'
     });
-    await Vehicle.create({
+    const vehicle = await Vehicle.create({
       type: 'taxi',
       carPlateNo: 'SHA1234B',
-      driverId: 1,
+      driverId:1
     });
+
     const vehiclesInDatabase = await Vehicle.findAll();
     vehiclesInDatabase.forEach(vehicle => console.log(vehicle.id, vehicle.carPlateNo, vehicle.type, vehicle.driverId));
     const driversInDatabase = await Driver.findAll();

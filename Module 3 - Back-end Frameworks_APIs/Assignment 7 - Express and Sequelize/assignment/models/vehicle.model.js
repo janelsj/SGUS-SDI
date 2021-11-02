@@ -19,11 +19,6 @@ module.exports = function (sequelize) {
         allowNull: false,
         field: "car_plate_no",
       },
-      driverId:{
-          type:DataTypes.INTEGER,
-          allowNull:true,
-          field:"driver_id"
-      },
       createdAt: {
         type: DataTypes.DATE,
         field: "created_at",
