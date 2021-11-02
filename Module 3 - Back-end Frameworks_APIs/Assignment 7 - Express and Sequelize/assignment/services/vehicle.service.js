@@ -165,7 +165,6 @@ module.exports = {
     
             //Fetch the vehicle & driver:
             const vehicle = await Vehicle.findAll({include:[{model:Driver, as:"driver"}]});
-            //const driver = await Driver.findAll();
 
             //Region validation
             if (!vehicle) {
@@ -175,7 +174,7 @@ module.exports = {
             }
             if (vehicle) {
                 response.status = 200;
-                response.message = `List of vehicles in database with drivers`;
+                response.message = "List of vehicles in database with drivers";
                 response.data = vehicle;
                 return response;
             }

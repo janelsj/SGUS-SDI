@@ -23,7 +23,6 @@ Vehicle.belongsTo(Driver, {
   as:"driver"
 });
 
-
 async function addDataToDB(){
   try {
     await sequelize.sync({force:true});
@@ -43,10 +42,10 @@ async function addDataToDB(){
       type: 'car',
       carPlateNo:'ABC123X'
     });
-    const vehicle = await Vehicle.create({
+    await Vehicle.create({
       type: 'taxi',
       carPlateNo: 'SHA1234B',
-      driverId:1
+      driverId: 1
     });
 
     const vehiclesInDatabase = await Vehicle.findAll();
