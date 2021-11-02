@@ -152,6 +152,7 @@ module.exports = {
             }
         } catch (error) {
             console.log(error);
+            throw error;
         }
     },
     showAll: async() => {
@@ -163,8 +164,8 @@ module.exports = {
             };
     
             //Fetch the vehicle & driver:
-            const vehicle = await Vehicle.findAll();
-            const driver = await Driver.findAll();
+            const vehicle = await Vehicle.findAll({include:{model:Driver, as:"driver"}});
+            //const driver = await Driver.findAll();
 
             //Region validation
             if (!vehicle) {
@@ -175,7 +176,7 @@ module.exports = {
             if (vehicle) {
                 response.status = 200;
                 response.message = `List of vehicles in database with drivers`;
-                response.data = {vehicle, driver};
+                response.data = vehicle;
                 return response;
             }
         } catch (error) {

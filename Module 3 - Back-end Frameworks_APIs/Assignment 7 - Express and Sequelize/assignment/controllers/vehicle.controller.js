@@ -18,7 +18,7 @@ class VehicleController {
     };
 
     async offboard(req, res, next) {
-        if(typeof req.body.driverId !== "number" || typeof req.body.vehicleId !== "number") {
+        if(typeof req.body.vehicleId!=="number") {
             res.status(400);
             return res.json({message:"Incorrect request data"});
         }
@@ -37,12 +37,9 @@ class VehicleController {
     };
 
     async removeDriver(req,res) {
-        if(typeof req.body.driverId!=="number"){
-            res.status(400);
-            return res.json({message:"Incorrect request data"});
-        }
+        const driverId = Number(req.params.driverId);
         res.status(200);
-        const response = await vehicleService.removeDriver(req.body.driverId);
+        const response = await vehicleService.removeDriver(driverId);
         res.json(response);
     };
 
