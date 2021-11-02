@@ -164,7 +164,7 @@ module.exports = {
             };
     
             //Fetch the vehicle & driver:
-            const vehicle = await Vehicle.findAll({include:{model:Driver, as:"driver"}});
+            const vehicle = await Vehicle.findAll({include:[{model:Driver, as:"driver"}]});
             //const driver = await Driver.findAll();
 
             //Region validation
