@@ -1,0 +1,15 @@
+const jwt = require("jsonwebtoken");
+
+// The data to be used for generating JWT
+const mockLoginData = {
+    accountId: 1,
+    email:"edison@skillsunion.com",
+    permissions:{
+        role:"ADMIN",
+        allow:['CREATE_VEHICLE', 'CREATE DRIVER']
+    }
+}
+
+// Generate token with the above data. 
+const token = jwt.sign(mockLoginData, privateKey, {algorithm:"RS256", expiresIn:"1d"});
+console.log(token);

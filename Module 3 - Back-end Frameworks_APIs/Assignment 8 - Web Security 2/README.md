@@ -12,7 +12,7 @@ In this assignment, you are challenged to create an end to end node.js applicati
 
 The priority of this assignment is to practice hashing and JWT, hence let's split this assignment into two parts.
 
-### Part 1 - Create endpoing with Express and store email and pwd in an array.
+### Part 1 - Create endpoint with Express and store email and pwd in an array.
 
 We do not wish for you to spend to much time setting up the database and unable to practice hashing and JWT. Therefore, as a start, please store `email` and `pwd` as object in array.
 
