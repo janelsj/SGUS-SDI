@@ -1,4 +1,6 @@
-const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken"); // Import
+const fs = require("fs"); // fs package comes with node.js by defaut, no need npm install.
+const privateKey = fs.readFileSync("./jwtRS256.key"); // read the private key
 
 // The data to be used for generating JWT
 const mockLoginData = {
