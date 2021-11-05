@@ -1,5 +1,3 @@
-// const bcrypt = require('bcrypt');
-// const hash = require('../app/fn.hash');
 const userService = require('../services/user.service');
 
 class UserController {
@@ -27,21 +25,7 @@ class UserController {
                 res.status(400);
                 return;
             };
-    
             const {email, password} = req.body;
-            // const hashedPassword = hash(password);
-
-            // const comparePwd = await bcrypt.compare(password, hashedPassword, function(err, result) {
-            //             if(err){
-            //                 console.error(err);
-            //                 return;
-            //             }
-            //             return result;
-            //         });
-            // if(!comparePwd) {
-            //     res.status(400);
-            //     return res.json({message:"Incorrect request data"});
-            // }
             const response = await userService.login(email, password);
             res.json(response);
         } catch(error) {
