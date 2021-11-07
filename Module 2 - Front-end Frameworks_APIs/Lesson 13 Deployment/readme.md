@@ -26,8 +26,8 @@ To verify, enter:
 
 - In the react app directory, run: `npm install gh-pages`
 - Add the following to "scripts":
-`"predeploy": "npm run build",`
-`"deploy": "gh-pages -d build"`
+  - `"predeploy": "npm run build",`
+  - `"deploy": "gh-pages -d build"`
 - Add a URL to "homepage":
 `"homepage": "https://<username>.github.io/deployment-test"`
 
