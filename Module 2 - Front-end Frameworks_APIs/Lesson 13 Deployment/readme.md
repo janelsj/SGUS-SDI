@@ -14,12 +14,12 @@ Clone the repository at any location and create a react app - `npx create-react-
 
 ### Part 3 - Set GIT Remote of your app
 
-In the command/terminal, change directory to 'deployment-test'.
-Enter this command to associate your project folder to the remote git repository:
-- `git init`
-- `git remote add origin https://<your-username>.github.com/deployment-test`
-To verify, enter:
-- `git remote -v`
+- In the command/terminal, change directory to 'deployment-test'.
+- Enter this command to associate your project folder to the remote git repository:
+  - `git init`
+  - `git remote add origin https://<your-username>.github.com/deployment-test`
+- To verify, enter:
+  - `git remote -v`
 
 
 ### Part 4 - Install gh-pages & configure package.json
@@ -29,7 +29,7 @@ To verify, enter:
   - `"predeploy": "npm run build",`
   - `"deploy": "gh-pages -d build"`
 - Add a URL to "homepage":
-`"homepage": "https://<username>.github.io/deployment-test"`
+  - `"homepage": "https://<username>.github.io/deployment-test"`
 
 
 ### Part 5 - Push code to remote repository
