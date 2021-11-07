@@ -8,3 +8,7 @@ In this session, you should attempt deploying your code to github pages independ
 
 - You are to produce a deployed URL for this submission.
 - Submit your assignment to black board.
+
+## Assignment
+Source code for assignment - [https://github.com/janelsj/ip-location-app](https://github.com/janelsj/ip-location-app).
+Assignment deployed at [https://janelsj.github.io/ip-location-app/](https://janelsj.github.io/ip-location-app/).
