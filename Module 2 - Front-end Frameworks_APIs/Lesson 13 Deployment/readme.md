@@ -44,7 +44,7 @@ Use the following git commands to push code to remote repo:
 ### Part 6 - Deploy it
 
 - Run this command: `npm run deploy`
-- Go to browser and enter the URL you have set in “homepage”.
+- Go to browser and enter the URL you have set in "homepage".
 
 
 ## Lesson
