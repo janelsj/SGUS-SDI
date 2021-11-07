@@ -10,7 +10,10 @@ Discuss in your project to:
 4. After you have discuss the 3 items above with your group, start researching on which cloud solutions suit your deployment plan.
 
 ```
-// Which deployment platform will your group be using?
+Which deployment platform will your group be using?
+**Use case for capstone project**: Ecommerce site like OpenSea
+**Use case for Module 3 project week**: Backend API representative of a simplified ecommerce site, with functionality of registering and de-registering products, buyers, sellers, and transaction process.
+Deployment platform: Heroku
 ```
 
 ## Submission Guidelines
