@@ -13,7 +13,7 @@ module.exports = {
             };
     
             //Fetch the user:
-            const user = await User.findAll();
+            const user = await User.findOne({where: {email: email}});
             
             //Region validation            
             if (user.find(user => user.email === email)) {

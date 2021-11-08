@@ -6,6 +6,7 @@ class UserController {
             if (typeof req.body !=='object') {
                 res.status(400);
                 return;
+                
             };
             const {email, password} = req.body;
             if(typeof email !== "string" || typeof password !== "string") {
