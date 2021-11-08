@@ -131,4 +131,5 @@ There are 3 parts to this workflow file.
         - run the commands: `npm ci`, `npm run build --if-present` and `npm test`
 
 
-## End
+## Lesson
+Lesson activity saved [here](https://github.com/janelsj/lesson-3.10-cicd).
