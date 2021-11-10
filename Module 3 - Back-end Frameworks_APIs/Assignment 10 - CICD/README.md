@@ -34,3 +34,6 @@ There is no actual deployment in this exercise. You are only to merge a branch t
 - Solve the problems using your own code
 - Do not copy and paste solutions from the source material
 - Submit your assignment to black board.
+
+## Assignment
+Assignment activity saved [here](https://github.com/janelsj/lesson-3.10-cicd).
