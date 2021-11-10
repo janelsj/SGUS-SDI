@@ -12,7 +12,7 @@ function calculatePartOne() {
   let c = 20;
   const total = a + b + c;
 }
-// Answer:
+// Answer: O(4)
 
 function calculatePartTwo() {
   let total = 0;
@@ -20,22 +20,22 @@ function calculatePartTwo() {
     total += dataSetOne[i];
   }
 }
-// Answer:
+// Answer: O(1+2N)
 
 function calculatePartThree() {
-  let a = 5;
-  let b = 10;
-  let total = 0;
+  let a = 5;      //O(1)
+  let b = 10;     //O(1)
+  let total = 0;  //O(1)
 
-  for (let i = 0; i < dataSetOne; i++) {
-    total += dataSetOne[i];
+  for (let i = 0; i < dataSetOne; i++) {  //O(N)
+    total += dataSetOne[i];               //O(N)
   }
 
-  for (let j = 0; j < dataSetTwo; j++) {
-    total += dataSetTwo[i];
-    total += 1;
+  for (let j = 0; j < dataSetTwo; j++) {  //O(M)
+    total += dataSetTwo[i];               //O(M)
+    total += 1;                           //O(M)
   }
 
-  let grandTotal = total + a + b;
+  let grandTotal = total + a + b;         //O(1)
 }
-// Answer:
+// Answer: O(4+2N+3M)

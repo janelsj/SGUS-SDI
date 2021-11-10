@@ -1,3 +1,5 @@
+const { performance } = require('perf_hooks');
+
 function testPerformance() {
   let t0 = performance.now();
 
