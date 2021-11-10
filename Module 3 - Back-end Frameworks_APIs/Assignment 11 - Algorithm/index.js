@@ -9,5 +9,5 @@ console.log("Checking numberArray:", numberArray);
 const selectionSortedArray = selectionSort(numberArray);
 console.log("Checking selectionSortedArray:", selectionSortedArray);
 
-const bubbleSortedArray = bubbleSort(numberArray);
-console.log("Checking bubbleSortedArray:", bubbleSortedArray);
+// const bubbleSortedArray = bubbleSort(numberArray);
+// console.log("Checking bubbleSortedArray:", bubbleSortedArray);
