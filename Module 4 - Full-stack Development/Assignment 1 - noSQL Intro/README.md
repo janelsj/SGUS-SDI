@@ -34,7 +34,11 @@ Value --> Temperature and weather
      "weather": "cloudy"
     },
 }
-
+_______________
+{
+"location1": "31, sunny",
+"location2": "29, cloudy",
+}
 ```
 
 ## Submission Guidelines
