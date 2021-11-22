@@ -13,7 +13,7 @@ Case 1
 ### Question 2 - Summarize your solutions and the database(s) used (you may incorporate feedback from instructor and produce a personal conclusion)
 
 ```
-Case 1: Graph DB - which influencer is linked to which comments
+Case 1: Document-database (MongoDB) - to store reviews that were scraped through the web, and select the ones that were filtered as negative.
 Case 2: Key-Value (redis) - temperature/weather based on location (hourly)
 Case 3: Document-database (MongoDB)
 ```
@@ -26,18 +26,33 @@ Key-value pair generated automatically by timer every hour:
 Key --> location
 Value --> Temperature and weather
 {"location1": {
-    "temperature": "31",
-    "weather": "sunny"
+    "0900": {
+        "temperature": "31",
+        "weather": "sunny"
+        },
+    "1000": {
+        "temperature": "30",
+        "weather": "sunny"
+        },
+    "1100": {
+        "temperature": "31",
+        "weather": "sunny"
+        }
     },
  "location2": {
-     "temperature": "29",
-     "weather": "cloudy"
+    "0900": {
+        "temperature": "29",
+        "weather": "cloudy"
+        },
+    "1000": {
+        "temperature": "28",
+        "weather": "rainy"
+        },
+    "1100": {
+        "temperature": "27",
+        "weather": "thunderstorm"
+        }
     },
-}
-_______________
-{
-"location1": "31, sunny",
-"location2": "29, cloudy",
 }
 ```
 
