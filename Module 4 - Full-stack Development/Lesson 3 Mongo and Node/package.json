@@ -1,0 +1,26 @@
+{
+  "name": "lesson-4.3-mongo-and-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find":"node find-operations.js",
+    "aggregate":"node aggregate-operations.js",
+    "index":"node text-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skills-Union-NTU-SDI-Program/lesson-4.3-mongo-and-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skills-Union-NTU-SDI-Program/lesson-4.3-mongo-and-node/issues"
+  },
+  "homepage": "https://github.com/Skills-Union-NTU-SDI-Program/lesson-4.3-mongo-and-node#readme",
+  "dependencies": {
+    "mongodb": "^4.1.1"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "invoiceNo": "invoice_1",
+    "items": [
+      {
+        "item": "mobile charger",
+        "price": 109.9,
+        "warranty": 3
+      },
+      {
+        "item": "pencil",
+        "price": 1.5,
+        "brand": "Dixon"
+      }
+    ]
+  },
+  {
+    "invoiceNo": "invoice_2",
+    "items": [
+      {
+        "item": "system75",
+        "price": 1000,
+        "warranty": 1
+      },
+      {
+        "item": "shipping",
+        "price": 200,
+        "company": "UPS"
+      }
+    ]
+  }
+]
