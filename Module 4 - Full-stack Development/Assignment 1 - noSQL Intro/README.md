@@ -26,12 +26,12 @@ Key-value pair generated automatically by timer every hour:
 Key --> location
 Value --> Temperature and weather
 {"location1": {
-    "temperature": 31,
-    "weather": sunny
+    "temperature": "31",
+    "weather": "sunny"
     },
  "location2": {
-     "temperature": 29,
-     "weather": cloudy
+     "temperature": "29",
+     "weather": "cloudy"
     },
 }
 
