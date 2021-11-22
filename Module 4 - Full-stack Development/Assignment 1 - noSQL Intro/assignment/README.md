@@ -7,19 +7,34 @@ In the assignment submission, you will conclude your findings presented over zoo
 ### Question 1 - Which use case your (temporary) group was working on?
 
 ```
-// Your answer
+Case 1
 ```
 
 ### Question 2 - Summarize your solutions and the database(s) used (you may incorporate feedback from instructor and produce a personal conclusion)
 
 ```
-// Your answer
+Case 1: Graph DB - which influencer is linked to which comments
+Case 2: Key-Value (redis) - temperature/weather based on location (hourly)
+Case 3: Document-database (MongoDB)
 ```
 
 ### Question 3 - Please replicate the data format you have used in the following code block.
 
 ```
-// Paste your sample data here
+Case 2:
+Key-value pair generated automatically by timer every hour:
+Key --> location
+Value --> Temperature and weather
+{"location1": {
+    "temperature": 31,
+    "weather": sunny
+    },
+ "location2": {
+     "temperature": 29,
+     "weather": cloudy
+    },
+}
+
 ```
 
 ## Submission Guidelines
