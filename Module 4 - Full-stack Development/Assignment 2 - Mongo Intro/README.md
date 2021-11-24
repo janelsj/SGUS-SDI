@@ -2954,8 +2954,7 @@ Attempt the following queries.
 ### 4. List only the restaurants name in descending order
 
 ```
-db.restaurants.distinct("name") --> [this shows only distinct names] OR
-db.restaurants.aggregate([ {$sort: {name:1}}, { $group: { _id: null, restaurants: {$push:"$name"} } } ]) -->[this shows repeated names in alphabetical order]
+db.restaurants.aggregate([ {$sort: {name:-1}}, { $group: { _id: null, restaurants: {$push:"$name"} } } ]);
 ```
 
 ### 5. List restaurants where name contains `Zo`
