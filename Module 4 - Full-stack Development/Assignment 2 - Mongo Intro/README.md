@@ -14,6 +14,7 @@ Import the file into local MongoDB instance with the following command on Termin
 
 ```
 mongorestore --archive=<path to sample file>
+mongorestore --archive="C:\Users\Jane Lim\Documents\GitHub\SGUS-SDI\Module 4 - Full-stack Development\Assignment 2 - Mongo Intro\assignment2sampledata.archive"
 ```
 
 Example if you are on the same directory as sample file:
@@ -37,7 +38,7 @@ Sample Output:
 Run the following command to choose the database you are going to work with:
 
 ```
-use sample_weatherdata
+use sample_restaurants
 ```
 
 Output:
