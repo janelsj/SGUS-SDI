@@ -11,8 +11,25 @@ app.post('/assignment', function (req, res) {
         "studentId":1,
         "score":50,
     };
-    broadcast(JSON.stringify(req.body));
-    res.send(req.body);
+
+    if (req.body.score >=50) {
+        const output = {
+            studentId: req.body.studentId,
+            score: req.body.score,
+            grade: "P"
+        };
+        broadcast(JSON.stringify(output));
+        res.send(output);
+    } else {
+        const output = {
+            studentId: req.body.studentId,
+            score: req.body.score,
+            grade: "F"
+        };
+        broadcast(JSON.stringify(output));
+        res.send(output);
+    };
+    
 })
  
 app.listen(port, ()=> console.log(`Listening to port ${port}...`));

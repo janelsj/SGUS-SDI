@@ -14,20 +14,10 @@ client.on('connect', function () {
     })
   })
 
-client.on("message", ({studentId, score}, message) => {
-    console.log(message);
-    if(topicToListen.score >= 50){
-        console.log(`
-          ${{studentId,
-            score,
-            grade: "P"
-          }}`);
-    } else {
-      console.log(`
-        ${{studentId,
-          score,
-          grade: "F"
-        }}`)
-    };
+
+client.on("message", (topic, message) => {
+  if(topic === topicToListen) {
+    console.log(message.toString());
+  };
     client.end();
 })
