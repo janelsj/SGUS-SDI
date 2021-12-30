@@ -29,7 +29,6 @@ app.post('/assignment', function (req, res) {
         broadcast(JSON.stringify(output));
         res.send(output);
     };
-    
 })
  
 app.listen(port, ()=> console.log(`Listening to port ${port}...`));
